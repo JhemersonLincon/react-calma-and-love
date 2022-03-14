@@ -9,10 +9,14 @@ export const Footer = styled.footer`
 export const FooterAreas = styled.div`
   display:grid; 
   grid-template-columns: repeat(auto-fit, minmax(34.7rem, 1fr));
+  gap:2.0rem;
 `;
 
 export const FooterAutorais = styled.div`
 border-top:solid 1px #c4c4c4;
+  margin-top:4.0rem;
+  padding-top:4.0rem;
+  font-size:2.0rem;
 `;
 
 export const LinksArea = styled.div`
@@ -54,5 +58,25 @@ export const NewLestterArea = styled.div`
     border-radius:var(--border-radius);
     border:none;
     color: var(--color-font-principal);
+  }
+  input:focus {
+    outline:solid 1px var(--background-principal);
+    box-shadow:0px 0px 5px 0px var(--background-principal);
+  }
+
+  button {
+    margin-top:1.6rem;
+    padding:1.6rem 3.2rem;
+    background:var(--background-principal);
+    border-radius:var(--border-radius);
+    border:none;
+    transition:.3s;
+    font-weight:700 ;
+    
+  }
+  button:hover,
+  button:focus {
+    color:var(--background-principal);
+    background:var(--color-font-principal);
   }
 `;

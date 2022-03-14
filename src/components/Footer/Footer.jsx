@@ -30,12 +30,13 @@ const Footer = () => {
         <C.NewLestterArea>
           <h3>NewLestter</h3>
           <input placeholder="Email" type="email" name="" id="" />
+          <button>Register</button>
         </C.NewLestterArea>
       </C.FooterAreas>
       <C.FooterAutorais>
       <p>
         Termos e Políticas<br/>
-        Lincon — 2022- © Todos os direitos reservados <br />
+        J.Lincon <strong>Linhouse</strong> — 2022- © Todos os direitos reservados <br />
         CNPJ nº. 00.000.000/0000-00 <br />
         Endereço: <br />
         Contato: 

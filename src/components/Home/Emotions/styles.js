@@ -7,15 +7,20 @@ export const Emotions = styled.section`
   margin: 4.0rem 3.2rem;
   gap:2.0rem;
   grid-template-columns: repeat(auto-fit,minmax(34.7rem,1fr));
+
+  @media (max-width:918px) {
+    gap:4.0rem;
+  }
 `;
 
 export const Emotion = styled.div`
   height: 45.4rem;
   position:relative;
   border-radius:5px;
-
   background:#c4c4c4;
-  z-index:-1;
+  @media (max-width:918px) {
+    overflow: hidden;
+  }
   
   &:hover > span,
   &:focus > span{
@@ -33,6 +38,7 @@ export const Emotion = styled.div`
 export const Circle = styled.div`
   height: 2.0rem;
   position: absolute;
+  z-index:-1;
   display: flex;
   justify-content:center;
   width: 100%;

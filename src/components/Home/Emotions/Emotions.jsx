@@ -14,7 +14,7 @@ const Emotions = () => {
             <span></span>
           </div>
         </C.Circle>
-        <C.Phase>Don't Give Up</C.Phase>
+        <C.Phase>Smile</C.Phase>
         <img src={imgSmile} alt="" />
       </C.Emotion>
 
@@ -24,7 +24,7 @@ const Emotions = () => {
             <span></span>
           </div>
         </C.Circle>
-        <C.Phase>Don't Give Up</C.Phase>
+        <C.Phase>Hope</C.Phase>
 
         <img src={imgHope} alt="" />
       </C.Emotion>
@@ -35,7 +35,7 @@ const Emotions = () => {
             <span></span>
           </div>
         </C.Circle>
-        <C.Phase>Don't Give Up</C.Phase>
+        <C.Phase>together</C.Phase>
         <img src={imgTogether} alt="" />
       </C.Emotion>
 

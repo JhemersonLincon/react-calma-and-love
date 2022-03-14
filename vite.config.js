@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server:{
     host:true
-  }
+  },
+  base:"https://jhemersonlincon.github.io/react-calma-and-love"
 })

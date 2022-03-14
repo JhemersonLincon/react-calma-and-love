@@ -1,8 +1,9 @@
 {
-  "name": "react-calma-and-love",
+  "name": "react-calm-and-love",
   "private": true,
   "version": "0.0.0",
   "main": "main.js",
+  "homepage": "https://jhemersonlincon.github.io/react-calma-and-love",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

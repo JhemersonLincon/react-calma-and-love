@@ -1,7 +1,6 @@
 import React from 'react'
 import * as C from './styles'
 import imgMessage from '../../../../images/messages.png'
-import { Link } from 'react-router-dom'
 const InicialMessage = () => {
   return (
     <C.InicialMessage>

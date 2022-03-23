@@ -11,15 +11,15 @@ const Footer = () => {
       <C.FooterAreas>
         <C.LinksArea>
           <h3>The Company</h3>
-          <p>About Us</p>
-          <p>Work with us</p>
-          <p>Terms of use</p>
+          <a href="/">About Us</a>
+          <a href="/">Work with us</a>
+          <a href="/">Terms of use</a>
         </C.LinksArea>
         <C.HelpArea>
           <h3>Using</h3>
-          <p>Solutions</p>
-          <p>Help Center</p>
-          <p>Terms of use</p>
+          <a href="/">Solutions</a>
+          <a href="/">Help Center</a>
+          <a href="/">Terms of use</a>
         </C.HelpArea>
         <C.SocialArea>
           <FacebookIcon fontSize="large"/>

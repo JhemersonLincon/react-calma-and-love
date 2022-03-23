@@ -14,9 +14,9 @@ export const ContainerTheme = styled.div`
 `;
 export const BtnTheme = styled.button`
   border: none;
-  background:#c4c4c4;
+  background:var(--background-principal);
   height: 100%;
   width: 100%;
-  box-shadow:2px 2px 0px var(--background-principal);
+  box-shadow:2px 2px 0px var(--color-font-secundary);
   border-radius: 50%;
 `;

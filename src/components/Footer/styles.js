@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Footer = styled.footer`
   display: block;
   margin: 4.0rem 3.2rem;
-  color:var(--color-font-principal);
-`;
-
+  color:var(--color-font-secundary);
+  `;
+  
 export const FooterAreas = styled.div`
   display:grid; 
   grid-template-columns: repeat(auto-fit, minmax(34.7rem, 1fr));
@@ -25,7 +25,10 @@ export const LinksArea = styled.div`
     font-weight: 700;
     margin-bottom:3.6rem;
   }
-  p {
+  a {
+    display:block;
+    text-decoration:none;
+    color:var(--color-font-secundary);
     font-size: 2.0rem;
   }
   p+p {

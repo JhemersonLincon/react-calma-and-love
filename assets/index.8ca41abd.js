@@ -1,4 +1,4 @@
-var $=Object.defineProperty;var u=Object.getOwnPropertySymbols;var b=Object.prototype.hasOwnProperty,v=Object.prototype.propertyIsEnumerable;var f=(r,t,n)=>t in r?$(r,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):r[t]=n,x=(r,t)=>{for(var n in t||(t={}))b.call(t,n)&&f(r,n,t[n]);if(u)for(var n of u(t))v.call(t,n)&&f(r,n,t[n]);return r};var k=(r,t)=>{var n={};for(var s in r)b.call(r,s)&&t.indexOf(s)<0&&(n[s]=r[s]);if(r!=null&&u)for(var s of u(r))t.indexOf(s)<0&&v.call(r,s)&&(n[s]=r[s]);return n};import{W as D,s as i,R as l,j as o,a as e,d as L,b as S,c as q,e as C,f as M,r as T,G as E,g as F,h as N,F as A,i as P}from"./vendor.27c014ee.js";const H=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))s(a);new MutationObserver(a=>{for(const c of a)if(c.type==="childList")for(const m of c.addedNodes)m.tagName==="LINK"&&m.rel==="modulepreload"&&s(m)}).observe(document,{childList:!0,subtree:!0});function n(a){const c={};return a.integrity&&(c.integrity=a.integrity),a.referrerpolicy&&(c.referrerPolicy=a.referrerpolicy),a.crossorigin==="use-credentials"?c.credentials="include":a.crossorigin==="anonymous"?c.credentials="omit":c.credentials="same-origin",c}function s(a){if(a.ep)return;a.ep=!0;const c=n(a);fetch(a.href,c)}};H();const G=D`
+var $=Object.defineProperty;var u=Object.getOwnPropertySymbols;var b=Object.prototype.hasOwnProperty,v=Object.prototype.propertyIsEnumerable;var f=(r,t,n)=>t in r?$(r,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):r[t]=n,x=(r,t)=>{for(var n in t||(t={}))b.call(t,n)&&f(r,n,t[n]);if(u)for(var n of u(t))v.call(t,n)&&f(r,n,t[n]);return r};var y=(r,t)=>{var n={};for(var s in r)b.call(r,s)&&t.indexOf(s)<0&&(n[s]=r[s]);if(r!=null&&u)for(var s of u(r))t.indexOf(s)<0&&v.call(r,s)&&(n[s]=r[s]);return n};import{W as D,s as i,R as l,j as o,a as e,d as L,b as S,c as q,e as C,f as M,r as T,G as E,g as F,h as N,F as A,i as P}from"./vendor.27c014ee.js";const H=function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))s(a);new MutationObserver(a=>{for(const c of a)if(c.type==="childList")for(const m of c.addedNodes)m.tagName==="LINK"&&m.rel==="modulepreload"&&s(m)}).observe(document,{childList:!0,subtree:!0});function n(a){const c={};return a.integrity&&(c.integrity=a.integrity),a.referrerpolicy&&(c.referrerPolicy=a.referrerpolicy),a.crossorigin==="use-credentials"?c.credentials="include":a.crossorigin==="anonymous"?c.credentials="omit":c.credentials="same-origin",c}function s(a){if(a.ep)return;a.ep=!0;const c=n(a);fetch(a.href,c)}};H();const G=D`
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
   *{
@@ -294,7 +294,7 @@ button:focus {
   opacity: 0;
   max-height:${r=>r.size?r.size:"initial "}; 
   transition: .3s;
-`,d=n=>{var s=n,{alt:r}=s,t=k(s,["alt"]);const[a,c]=l.useState(!0);function m({target:j}){j.style.opacity=1}return o(oe,{children:[a&&e(ne,{}),e(ae,x({onLoad:m,alt:r},t))]})},se=()=>o(Z,{children:[o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"Smile"}),e(d,{size:"45.4rem",src:ee,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]}),o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"Hope"}),e(d,{size:"45.4rem",src:re,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]}),o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"together"}),e(d,{size:"45.4rem",src:ie,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]}),o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"Don't Give Up"}),e(d,{size:"45.4rem",src:te,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]})]});var ce="https://jhemersonlincon.github.io/react-calma-and-love/assets/have-time.e3cd24a6.jpg";const le=i.section`
+`,d=n=>{var s=n,{alt:r}=s,t=y(s,["alt"]);const[a,c]=l.useState(!0);function m({target:j}){j.style.opacity=1}return o(oe,{children:[a&&e(ne,{}),e(ae,x({onLoad:m,alt:r},t))]})},se=()=>o(Z,{children:[o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"Smile"}),e(d,{size:"45.4rem",src:ee,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]}),o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"Hope"}),e(d,{size:"45.4rem",src:re,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]}),o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"together"}),e(d,{size:"45.4rem",src:ie,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]}),o(p,{children:[e(h,{children:e("div",{children:e("span",{})})}),e(g,{children:"Don't Give Up"}),e(d,{size:"45.4rem",src:te,alt:"Grand pintura de uma bola amarela no ch\xE3o sorrindo "})]})]});var ce="https://jhemersonlincon.github.io/react-calma-and-love/assets/have-time.e3cd24a6.jpg";const le=i.section`
   margin: 4.0rem 3.2rem;
   display: grid;
   gap:2.0rem;
@@ -420,13 +420,13 @@ button:focus {
     color:var(--background-principal);
     background:var(--color-font-principal);
   }
-`;var ve="https://jhemersonlincon.github.io/react-calma-and-love/assets/messages.a9f65457.png";const xe=()=>o(ge,{children:[o(fe,{children:[e("h2",{children:"Leave your message of the day"}),e("p",{children:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo interdum eros quis ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec quis tellus porta, finibus enim quis, consectetur nibh."})]}),o(be,{children:[e("div",{children:e(d,{alt:"",src:ve})}),e("button",{children:"Let's your message"})]})]}),ke=i.section`
+`;var ve="https://jhemersonlincon.github.io/react-calma-and-love/assets/messages.a9f65457.png";const xe=()=>o(ge,{children:[o(fe,{children:[e("h2",{children:"Leave your message of the day"}),e("p",{children:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo interdum eros quis ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec quis tellus porta, finibus enim quis, consectetur nibh."})]}),o(be,{children:[e("div",{children:e(d,{alt:"",src:ve})}),e("button",{children:"Let's your message"})]})]}),ye=i.section`
   margin: 4.0rem 3.2rem;
-`,ye=()=>(l.useState(!1),e(ke,{children:e(xe,{})})),we=()=>o("main",{children:[e(U,{children:o(W,{children:[e("h1",{children:"They told me  \u201Cnothing in the worlds can love you.\u201D He was wrong"}),e("button",{children:"Never Believe"})]})}),e(X,{}),e(se,{}),e(ue,{}),e(he,{}),e(ye,{})]}),ze=i.footer`
+`,ke=()=>(l.useState(!1),e(ye,{children:e(xe,{})})),we=()=>o("main",{children:[e(U,{children:o(W,{children:[e("h1",{children:"They told me  \u201Cnothing in the worlds can love you.\u201D He was wrong"}),e("button",{children:"Never Believe"})]})}),e(X,{}),e(se,{}),e(ue,{}),e(he,{}),e(ke,{})]}),ze=i.footer`
   display: block;
   margin: 4.0rem 3.2rem;
-  color:var(--color-font-principal);
-`,je=i.div`
+  color:var(--color-font-secundary);
+  `,je=i.div`
   display:grid; 
   grid-template-columns: repeat(auto-fit, minmax(34.7rem, 1fr));
   gap:2.0rem;
@@ -441,7 +441,10 @@ border-top:solid 1px #c4c4c4;
     font-weight: 700;
     margin-bottom:3.6rem;
   }
-  p {
+  a {
+    display:block;
+    text-decoration:none;
+    color:var(--color-font-secundary);
     font-size: 2.0rem;
   }
   p+p {
@@ -490,7 +493,7 @@ border-top:solid 1px #c4c4c4;
     color:var(--background-principal);
     background:var(--color-font-principal);
   }
-`,qe=()=>o(ze,{children:[o(je,{children:[o(z,{children:[e("h3",{children:"The Company"}),e("p",{children:"About Us"}),e("p",{children:"Work with us"}),e("p",{children:"Terms of use"})]}),o(De,{children:[e("h3",{children:"Using"}),e("p",{children:"Solutions"}),e("p",{children:"Help Center"}),e("p",{children:"Terms of use"})]}),o(Le,{children:[e(S,{fontSize:"large"}),e(q,{fontSize:"large"}),e(C,{fontSize:"large"}),e(M,{fontSize:"large"})]}),o(Se,{children:[e("h3",{children:"NewLestter"}),e("input",{placeholder:"Email",type:"email",name:"",id:""}),e("button",{children:"Register"})]})]}),e($e,{children:o("p",{children:["Termos e Pol\xEDticas",e("br",{}),"J.Lincon ",e("strong",{children:"Linhouse"})," \u2014 2022- \xA9 Todos os direitos reservados ",e("br",{}),"CNPJ n\xBA. 00.000.000/0000-00 ",e("br",{}),"Endere\xE7o: ",e("br",{}),"Contato:"]})})]});var Ce={title:"dark",colors:{primary:"#FDD504",secundary:"#fff",effect:"rgb(10,10,0)",background:"rgb(10,10,0)",text:"#211F18"}},y={title:"light",colors:{primary:"#FDD504",secundary:"#211f18",effect:"#f5f5f5",background:"#f5f5f5",text:"#211F18"}};const Me=i.div`
+`,qe=()=>o(ze,{children:[o(je,{children:[o(z,{children:[e("h3",{children:"The Company"}),e("a",{href:"/",children:"About Us"}),e("a",{href:"/",children:"Work with us"}),e("a",{href:"/",children:"Terms of use"})]}),o(De,{children:[e("h3",{children:"Using"}),e("a",{href:"/",children:"Solutions"}),e("a",{href:"/",children:"Help Center"}),e("a",{href:"/",children:"Terms of use"})]}),o(Le,{children:[e(S,{fontSize:"large"}),e(q,{fontSize:"large"}),e(C,{fontSize:"large"}),e(M,{fontSize:"large"})]}),o(Se,{children:[e("h3",{children:"NewLestter"}),e("input",{placeholder:"Email",type:"email",name:"",id:""}),e("button",{children:"Register"})]})]}),e($e,{children:o("p",{children:["Termos e Pol\xEDticas",e("br",{}),"J.Lincon ",e("strong",{children:"Linhouse"})," \u2014 2022- \xA9 Todos os direitos reservados ",e("br",{}),"CNPJ n\xBA. 00.000.000/0000-00 ",e("br",{}),"Endere\xE7o: ",e("br",{}),"Contato:"]})})]});var Ce={title:"dark",colors:{primary:"#FDD504",secundary:"#fff",effect:"rgb(10,10,0)",background:"rgb(10,10,0)",text:"#211F18"}},k={title:"light",colors:{primary:"#FDD504",secundary:"#211f18",effect:"#f5f5f5",background:"#f5f5f5",text:"#211F18"}};const Me=i.div`
   position: fixed;
   bottom:1.0rem;
   right:1.0rem;
@@ -503,9 +506,9 @@ border-top:solid 1px #c4c4c4;
   background:var(--background-principal);
 `,Te=i.button`
   border: none;
-  background:#c4c4c4;
+  background:var(--background-principal);
   height: 100%;
   width: 100%;
-  box-shadow:2px 2px 0px var(--background-principal);
+  box-shadow:2px 2px 0px var(--color-font-secundary);
   border-radius: 50%;
-`,Ee=({toggleTheme:r})=>{const{title:t}=T.exports.useContext(E);return e(Me,{children:e(Te,{onClick:()=>r(),children:t==="light"?e(F,{sx:{fontSize:25}}):e(N,{sx:{fontSize:25}})})})},Fe=()=>{const[r,t]=l.useState(y);return o(A,{theme:r,children:[e(G,{}),e(Q,{}),e(we,{}),e(qe,{}),e(Ee,{toggleTheme:()=>{t(r.title==="light"?Ce:y)}})]})};P.render(e(l.StrictMode,{children:e(Fe,{})}),document.getElementById("root"));
+`,Ee=({toggleTheme:r})=>{const{title:t}=T.exports.useContext(E);return e(Me,{children:e(Te,{onClick:()=>r(),children:t==="light"?e(F,{sx:{fontSize:25}}):e(N,{sx:{fontSize:25}})})})},Fe=()=>{const[r,t]=l.useState(k);return o(A,{theme:r,children:[e(G,{}),e(Q,{}),e(we,{}),e(qe,{}),e(Ee,{toggleTheme:()=>{t(r.title==="light"?Ce:k)}})]})};P.render(e(l.StrictMode,{children:e(Fe,{})}),document.getElementById("root"));

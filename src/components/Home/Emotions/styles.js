@@ -17,7 +17,6 @@ export const Emotion = styled.div`
   height: 45.4rem;
   position:relative;
   border-radius:5px;
-  background:#c4c4c4;
   @media (max-width:918px) {
     overflow: hidden;
   }
@@ -28,8 +27,6 @@ export const Emotion = styled.div`
   }
   img {
     width: 100%;
-    border-radius:5px;
-    object-fit: cover;
     height: 100%;
   }
 `;

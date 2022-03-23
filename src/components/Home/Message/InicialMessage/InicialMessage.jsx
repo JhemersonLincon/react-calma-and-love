@@ -1,6 +1,7 @@
 import React from 'react'
 import * as C from './styles'
 import imgMessage from '../../../../images/messages.png'
+import Image from '../../../../Helpers/Image/Image'
 const InicialMessage = () => {
   return (
     <C.InicialMessage>
@@ -10,7 +11,7 @@ const InicialMessage = () => {
       </C.MessageOfDay>
       <C.Message>
         <div>
-          <img src={imgMessage} alt="" />
+          <Image alt="" src={imgMessage}/>
         </div>
         <button >Let's your message</button>
       </C.Message>

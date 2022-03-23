@@ -54,7 +54,7 @@ export const NavBar = styled.div`
     transition: .3s;
     display: block;
     padding: 8px 0;
-    color:var(--color-font-principal);
+    color:#211F18;
     margin:0 3.6rem;
     border-bottom:solid 1px transparent ;
     text-decoration:none;

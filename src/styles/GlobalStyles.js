@@ -8,13 +8,15 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     box-sizing:border-box;
     margin: 0;padding:0;
-
+    transition: all .3s;
   }
 
   :root {
-    --background-principal:#FDD504;
-    --color-font-principal:#211F18;
+    --background-principal:${props => props.theme.colors.primary};
+    --color-font-principal:${props => props.theme.colors.text};
+    --color-font-secundary:${props => props.theme.colors.secundary};
     --border-radius:5px;
+    
   }
 
   ::-webkit-scrollbar{
@@ -25,10 +27,15 @@ export const GlobalStyle = createGlobalStyle`
   }
   ::-webkit-scrollbar-thumb{
     background:var(--background-principal);
-    border-radius: var(---border-radius);
+    border-radius: var(--border-radius);
   }
   html {
     font-size: 62.7%;
+  }
+
+  body {
+    transition:.3s;
+    background-color: ${props => props.theme.colors.background};
   }
 `;
 

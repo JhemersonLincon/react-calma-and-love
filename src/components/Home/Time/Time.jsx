@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from '../../../Helpers/Image/Image';
 import imgTime from '../../../images/have-time.jpg';
 import * as C from './styles'
 const Time = () => {
   return (
     <C.Time>
       <div>
-        <img src={imgTime} alt="" />
+        <Image src={imgTime} alt=""/>
       </div>
       <C.ContainerContent>
         <h2>Have your time</h2>

@@ -7,6 +7,7 @@ export const InicialMessage = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(34.7rem, 1fr));
 `;
 export const MessageOfDay = styled.div`
+  color:var(--color-font-secundary);
   h2 {
     max-width: 46.9rem;
     font-weight: 700;

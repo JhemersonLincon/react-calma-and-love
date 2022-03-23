@@ -5,6 +5,7 @@ import imgSmile from '../../../images/smile.jpg';
 import imgHope from '../../../images/hope.jpg';
 import imgTogether from '../../../images/together.jpg';
 import imgDontGiveUp from '../../../images/dont give up.jpg';
+import Image from '../../../Helpers/Image/Image';
 const Emotions = () => {
   return (
     <C.Emotions>
@@ -15,7 +16,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>Smile</C.Phase>
-        <img src={imgSmile} alt="" />
+        <Image size="45.4rem" src={imgSmile} alt="Grand pintura de uma bola amarela no chão sorrindo " />
       </C.Emotion>
 
       <C.Emotion>
@@ -25,8 +26,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>Hope</C.Phase>
-
-        <img src={imgHope} alt="" />
+        <Image size="45.4rem"  src={imgHope} alt="Grand pintura de uma bola amarela no chão sorrindo " />
       </C.Emotion>
 
       <C.Emotion>
@@ -36,7 +36,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>together</C.Phase>
-        <img src={imgTogether} alt="" />
+        <Image size="45.4rem"  src={imgTogether} alt="Grand pintura de uma bola amarela no chão sorrindo " />
       </C.Emotion>
 
       <C.Emotion>
@@ -46,7 +46,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>Don't Give Up</C.Phase>
-        <img src={imgDontGiveUp} alt="" />
+        <Image size="45.4rem"  src={imgDontGiveUp} alt="Grand pintura de uma bola amarela no chão sorrindo " />
       </C.Emotion>
 
     </C.Emotions>

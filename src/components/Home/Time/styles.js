@@ -21,6 +21,7 @@ export const Time = styled.section`
 
 export const ContainerContent = styled.div`
   font-size:2.0rem;
+  color:var(--color-font-secundary);
   h2 {
     font-size:4.0rem;
     font-weight: 700;

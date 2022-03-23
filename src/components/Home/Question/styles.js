@@ -19,10 +19,10 @@ h2 {
   max-width:37.2rem;
   font-weight:700;
   line-height:60px;
-  color:var(--color-font-principal);
+  color:var(--color-font-secundary);
 }
 p {
-  color:var(--color-font-principal);
+  color:var(--color-font-secundary);
   font-size:2.0rem;
   margin-top:3.6rem;
   line-height:30px;
@@ -52,12 +52,16 @@ button:focus {
 `;
 
 export const DontStop = styled.div`
-  transform:translateY(-13.5rem);
+  transform:translateY(-10.5rem);
   border-radius: var(--border-radius);
   grid-area:dontstop;
   background:var(--background-principal);
   padding:64px 32px;
   max-width:59.0rem;
+  h2, p{
+
+    color:var(--color-font-principal);
+  }
   @media(max-width:918px) {
     transform:translateY(-8.5rem);
   }

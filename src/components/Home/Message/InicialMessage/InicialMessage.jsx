@@ -11,7 +11,7 @@ const InicialMessage = () => {
       </C.MessageOfDay>
       <C.Message>
         <div>
-          <Image alt="" src={imgMessage}/>
+          <Image alt="message example" src={imgMessage}/>
         </div>
         <button >Let's your message</button>
       </C.Message>

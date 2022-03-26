@@ -16,7 +16,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>Smile</C.Phase>
-        <Image size="45.4rem" src={imgSmile} alt="Grand pintura de uma bola amarela no chão sorrindo " />
+        <Image size="45.4rem" src={imgSmile} alt="Grand pintura de uma bola amarela no chão sorrindo, com alguem olhando de cima" />
       </C.Emotion>
 
       <C.Emotion>
@@ -26,7 +26,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>Hope</C.Phase>
-        <Image size="45.4rem"  src={imgHope} alt="Grand pintura de uma bola amarela no chão sorrindo " />
+        <Image size="45.4rem"  src={imgHope} alt="Desmonstração de esperança, uma pedra segurado por uma pessoa escrito esperança" />
       </C.Emotion>
 
       <C.Emotion>
@@ -36,7 +36,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>together</C.Phase>
-        <Image size="45.4rem"  src={imgTogether} alt="Grand pintura de uma bola amarela no chão sorrindo " />
+        <Image size="45.4rem"  src={imgTogether} alt="Desmontração em imagem de todos juntos, duas pessoas juntas em um morro" />
       </C.Emotion>
 
       <C.Emotion>
@@ -46,7 +46,7 @@ const Emotions = () => {
           </div>
         </C.Circle>
         <C.Phase>Don't Give Up</C.Phase>
-        <Image size="45.4rem"  src={imgDontGiveUp} alt="Grand pintura de uma bola amarela no chão sorrindo " />
+        <Image size="45.4rem"  src={imgDontGiveUp} alt="Desmontração de não desistenca. Uma pessoa sozinha, apreciando as estrelas" />
       </C.Emotion>
 
     </C.Emotions>
